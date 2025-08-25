@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="parampara_foods_logo.ico">
     <title>Parampara Foods - Tradition in Every Bite</title>
     <style>
         * {
@@ -88,6 +87,27 @@
 
         nav a:hover::after {
             width: 100%;
+        }
+
+        .whatsapp-btn {
+            background: #25d366;
+            border: none;
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 25px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 0.9rem;
+        }
+
+        .whatsapp-btn:hover {
+            background: #20b358;
+            transform: scale(1.05);
         }
 
         /* Hero Section */
@@ -306,6 +326,31 @@
             font-size: 1.2rem;
             font-weight: bold;
             color: #ff6b35;
+            margin-bottom: 1rem;
+        }
+
+        .order-whatsapp {
+            width: 100%;
+            background: #25d366;
+            color: white;
+            border: none;
+            padding: 0.8rem;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+        }
+
+        .order-whatsapp:hover {
+            background: #20b358;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(37, 211, 102, 0.3);
         }
 
         /* About Section */
@@ -406,8 +451,18 @@
                 gap: 1rem;
             }
 
+            .header-content nav {
+                order: 3;
+                width: 100%;
+            }
+
+            .whatsapp-btn {
+                order: 2;
+            }
+
             nav ul {
                 margin-top: 1rem;
+                justify-content: center;
             }
 
             .hero-content h1 {
@@ -446,6 +501,9 @@
                         <li><a href="#contact">Contact</a></li>
                     </ul>
                 </nav>
+                <a href="https://wa.me/919876543210" class="whatsapp-btn" target="_blank">
+                    <span>📱</span> WhatsApp
+                </a>
             </div>
         </div>
     </header>
@@ -499,6 +557,9 @@
                         <h3>Samosas</h3>
                         <p>Crispy, golden triangular pastries filled with spiced potatoes and peas. A classic favorite!</p>
                         <div class="product-price">₹120 per dozen</div>
+                        <a href="https://wa.me/919876543210?text=Hi, I would like to order Samosas (₹120 per dozen). Please share more details." class="order-whatsapp" target="_blank">
+                            <span>📱</span> Order on WhatsApp
+                        </a>
                     </div>
                 </div>
                 <div class="product-card">
@@ -507,6 +568,9 @@
                         <h3>Mathri</h3>
                         <p>Flaky, savory biscuits seasoned with cumin and ajwain. Perfect with tea or as a snack.</p>
                         <div class="product-price">₹150 per 500g</div>
+                        <a href="https://wa.me/919876543210?text=Hi, I would like to order Mathri (₹150 per 500g). Please share more details." class="order-whatsapp" target="_blank">
+                            <span>📱</span> Order on WhatsApp
+                        </a>
                     </div>
                 </div>
                 <div class="product-card">
@@ -515,6 +579,9 @@
                         <h3>Chakli</h3>
                         <p>Spiral-shaped crunchy snacks made from rice flour and spices. Irresistibly delicious!</p>
                         <div class="product-price">₹180 per 500g</div>
+                        <a href="https://wa.me/919876543210?text=Hi, I would like to order Chakli (₹180 per 500g). Please share more details." class="order-whatsapp" target="_blank">
+                            <span>📱</span> Order on WhatsApp
+                        </a>
                     </div>
                 </div>
                 <div class="product-card">
@@ -523,6 +590,9 @@
                         <h3>Namak Pare</h3>
                         <p>Diamond-shaped crispy treats seasoned with salt and spices. Great for munching anytime!</p>
                         <div class="product-price">₹130 per 500g</div>
+                        <a href="https://wa.me/919876543210?text=Hi, I would like to order Namak Pare (₹130 per 500g). Please share more details." class="order-whatsapp" target="_blank">
+                            <span>📱</span> Order on WhatsApp
+                        </a>
                     </div>
                 </div>
                 <div class="product-card">
@@ -531,6 +601,9 @@
                         <h3>Kachori</h3>
                         <p>Deep-fried, flaky pastries stuffed with spiced lentil filling. A Rajasthani delicacy!</p>
                         <div class="product-price">₹140 per dozen</div>
+                        <a href="https://wa.me/919876543210?text=Hi, I would like to order Kachori (₹140 per dozen). Please share more details." class="order-whatsapp" target="_blank">
+                            <span>📱</span> Order on WhatsApp
+                        </a>
                     </div>
                 </div>
                 <div class="product-card">
@@ -539,6 +612,9 @@
                         <h3>Sev</h3>
                         <p>Fine, crispy noodles made from gram flour. Perfect for garnishing or snacking.</p>
                         <div class="product-price">₹160 per 500g</div>
+                        <a href="https://wa.me/919876543210?text=Hi, I would like to order Sev (₹160 per 500g). Please share more details." class="order-whatsapp" target="_blank">
+                            <span>📱</span> Order on WhatsApp
+                        </a>
                     </div>
                 </div>
             </div>
@@ -568,6 +644,7 @@
                     <h3>Contact Us</h3>
                     <p>📧  p.999parampara@gmail.com</p>
                     <p>📞 +91 99300 31089</p>
+                    <p>📱 <a href="https://wa.me/919930031089" style="color: #25d366; text-decoration: underline;">WhatsApp Us</a></p>
                     <p>📍 Bhayandar, Mumbai, Maharashtra 401105</p>
                 </div>
                 <div class="footer-section">
